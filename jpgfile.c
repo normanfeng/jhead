@@ -7,7 +7,7 @@
 // Matthias Wandel
 //--------------------------------------------------------------------------
 #include "jhead.h"
-
+ 
 // Storage for simplified info extracted from file.
 ImageInfo_t ImageInfo;
 
@@ -17,7 +17,7 @@ static int SectionsAllocated;
 static int SectionsRead;
 static int HaveAll;
 
-
+ 
 
 #define PSEUDO_IMAGE_MARKER 0x123; // Extra value.
 //--------------------------------------------------------------------------
